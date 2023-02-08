@@ -1,0 +1,100 @@
+.food-blog__header {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.food-blog__header-content {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.food-blog__header-imgs {
+
+    background: url('../../assets/pizza.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+
+
+}
+
+.food-blog__header-imgs button {
+    position: absolute;
+
+}
+
+.food-blog__header-content-heading {
+    padding-right: 116px;
+    margin-top: 111px;
+
+}
+
+.food-blog__header-content-heading h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 69px;
+
+    color: #0E2368;
+
+}
+
+.food-blog__header-content-heading h1 span {
+    color: #E23744;
+}
+
+.food-blog__header-content-logo {
+    margin-top: 30px;
+}
+
+.food-blog__header-content-heading p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16.4447px;
+    line-height: 27px;
+    color: #444957;
+    margin-top: 26px;
+}
+
+.food-blog__header-content-heading button {
+    margin-top: 55px;
+
+    padding: 14px 34px;
+    gap: 7px;
+    background: #E23744;
+    border-radius: 34px;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+
+.food-blog__header-imgs button {
+    background: #E23744;
+
+    top: 32px;
+    right: 41px;
+    padding: 3px 26px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+}
