@@ -1,0 +1,30 @@
+.food-blog__articles{
+    margin: 158px 104px;
+}
+.food-blog__articles-card-container{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.food-blog__articles-card-container::-webkit-scrollbar{
+    display: none;
+}
+.food-blog__articles-card-container::-webkit-scrollbar-button{
+    border: 2px solid black;
+}
+.food-blog__articles-heading h2{
+    font-family: 'Source Sans Pro';
+
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 42px;
+
+    
+    letter-spacing: 0.04em;
+    
+    
+    
+    color: #0E2368;
+    margin-bottom: 41px;
+}
