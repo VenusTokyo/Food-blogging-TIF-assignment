@@ -1,19 +1,21 @@
 .food-blog__articles{
-    margin: 158px 104px;
+    margin: 158px 0;
 }
 .food-blog__articles-card-container{
     display: flex;
     justify-content: center;
-    overflow: scroll;
-    scroll-behavior: smooth;
+    flex-wrap: wrap;
+    /* overflow: scroll;
+    scroll-behavior: smooth; */
 }
-.food-blog__articles-card-container::-webkit-scrollbar{
+/* .food-blog__articles-card-container::-webkit-scrollbar{
     display: none;
 }
 .food-blog__articles-card-container::-webkit-scrollbar-button{
     border: 2px solid black;
-}
+} */
 .food-blog__articles-heading h2{
+    margin-left: 104px;
     font-family: 'Source Sans Pro';
 
     font-weight: 600;
