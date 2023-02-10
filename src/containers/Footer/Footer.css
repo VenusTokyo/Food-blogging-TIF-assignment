@@ -65,3 +65,14 @@ justify-content: space-between;
     color: #828B9C;
     align-items: flex-end;
 }
+@media screen and (max-width:375px) {
+.food-blog__footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.food-blog__footer-contact-ul {
+    width: 80%;
+}
+}

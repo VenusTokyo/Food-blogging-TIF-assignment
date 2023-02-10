@@ -3,15 +3,15 @@
     justify-content: center;
     /* align-items: center; */
     margin-bottom: 186px;
+    /* flex-wrap: wrap-reverse; */
 
 }
 
 .food-blog__header-content {
-    width: 100%;
+    /* width: 100%; */
     padding-left: 100px;
     display: flex;
     flex-direction: column;
-
 }
 
 .food-blog__header-imgs {
@@ -23,10 +23,7 @@
 
 }
 
-.food-blog__header-imgs button {
-    position: absolute;
 
-}
 
 .food-blog__header-content-heading {
     padding-right: 116px;
@@ -79,6 +76,8 @@
 }
 
 .food-blog__header-imgs button {
+    position: absolute;
+
     background: #E23744;
 
     top: 32px;
@@ -88,15 +87,36 @@
     border: 1px solid #FFFFFF;
     border-radius: 21px;
     font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 36px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
 
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: #FFFFFF;
-cursor: pointer;
+    color: #FFFFFF;
+    cursor: pointer;
 
+}
+@media screen and (max-width:375px) {
+    .food-blog__header{
+        /* display: block; */
+        flex-direction: column-reverse;
+    }
+    .food-blog__header-content{
+        text-align: center;
+    }
+    .food-blog__header-content-logo{
+        display: none;
+    }
+    .food-blog__header-content-heading{
+        padding: 0;
+        justify-content: center;
+
+    }
+    .food-blog__header-imgs {
+        width: 100vh;
+        background-position: top left;
+    }
+    
 }

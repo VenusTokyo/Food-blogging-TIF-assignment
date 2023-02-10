@@ -57,3 +57,22 @@
     cursor: pointer;
 
 }
+@media screen and (max-width:375px) {
+    .food-blog__about{
+        padding: 140px 0;
+        
+    }
+    .food-blog__about-img{
+        display: none;
+    }
+    .food-blog__about-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+        width: 80%;
+        /* width: 100%; */
+    }
+}

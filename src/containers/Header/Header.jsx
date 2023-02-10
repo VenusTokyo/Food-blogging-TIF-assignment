@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo from '../../assets/Logo.png'
 import vector from '../../assets/Red Vector.png'
+
 const Header = () => {
   return (
     <div className='food-blog__header'>
